@@ -20,6 +20,15 @@ export class Participant {
     getHand() {
         return this.hand;
     }
+    revealHand() {
+        this.hand.revealAll();
+    }
+    reset() {
+        this.hand = new Hand();
+    }
+    burn() {
+        return this.getScore() > 21;
+    }
 }
 
 export class Dealer extends Participant {
@@ -54,6 +63,10 @@ export class Player extends Participant {
             }
         }
         return actions
+    }
+
+    getBalance() {
+        return this.balance;
     }
 
     getBet () {

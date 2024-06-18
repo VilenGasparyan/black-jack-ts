@@ -31,5 +31,7 @@ export class Card {
     getIsHidden() {
         return this.isHidden;
     }
-
+    reveal() {
+        this.isHidden = false;
+    }
 }

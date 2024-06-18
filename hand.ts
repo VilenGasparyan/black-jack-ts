@@ -49,4 +49,7 @@ export class Hand {
     getCards() {
         return this.cards;
     }
+    revealAll() {
+        this.cards.forEach(el => el.reveal())
+    }
 }
