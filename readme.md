@@ -61,9 +61,6 @@ We welcome contributions! Feel free to fork the repository, create a new branch,
 5. **Open a pull request**.
 
 
-## 🌟 Acknowledgements
----
-
 Enjoy the game and may the odds be ever in your favor! If you have any questions or feedback, feel free to reach out. Happy playing! 🥳
 
 ---
